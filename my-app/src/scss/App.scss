@@ -43,6 +43,9 @@ input::placeholder {
   letter-spacing: 0.5px;
   color: #162548;
 }
+.seconSelect {
+  padding: 10px 17px;
+}
 
 .toValue {
   font-family: "Roboto", sans-serif;
@@ -55,9 +58,22 @@ input::placeholder {
 }
 
 .covertToPart {
+  position: relative;
   border-top: 1px solid rgba(202, 206, 220, 0.623771);
 }
-
+.changeBtn {
+  cursor: pointer;
+  position: absolute;
+  bottom: 90%;
+  left: 50%;
+  background: linear-gradient(136.32deg, rgba(58, 60, 64, 0.4) 1.49%, rgba(255, 255, 255, 0.304174) 97.46%), #ffffff;
+  background-blend-mode: soft-light, normal;
+  box-shadow: -7px -7px 10px rgba(255, 255, 255, 0.5), 7px 7px 10px rgba(202, 206, 220, 0.31);
+  border-radius: 10px;
+  width: 30px;
+  padding: 2px 5px;
+  height: 30px;
+}
 .HH {
   height: 100vh;
 }

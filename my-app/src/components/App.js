@@ -2,17 +2,22 @@ import '../scss/App.scss';
 import rates from './rates.json';
 import { createRef } from "react";
 
+
 const fromRef = createRef();
 const toRef = createRef();
 const fromİnputRef = createRef();
-
+const changeValues = () => {
+  const from = fromRef.current.value;
+  const to = toRef.current.value
+  fromRef.current.value = to;
+  toRef.current.value = from
+}
 const exChange = () => {
   var fromExchange = rates.find(r => r.code == (fromRef.current.value));
   var ftoExchange = rates.find(r => r.code == (toRef.current.value));
   var result = fromExchange.value * fromİnputRef.current.value / ftoExchange.value;
   const res = document.querySelector(".toValue")
   res.innerText = result.toFixed(4);
-
 }
 
 function App() {
@@ -31,6 +36,9 @@ function App() {
           </div>
         </div>
         <div className="col-12 p-5 covertToPart">
+          <div className="changeBtn" onClick={changeValues} >
+            <img className="w-100" src="https://th.bing.com/th/id/R24d6c772be9edd73b22773d88ec63341?rik=W%2fDZqp2RB9uqGA&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_204174.png&ehk=E4MN9e4V51c7H%2bL4FUo116tHOfgZrSRqx%2ftb%2bDQTunU%3d&risl=&pid=ImgRaw" />
+          </div>
           <p className="to">From:</p>
           <div className="d-flex justify-content-between " >
             <div className="mainValue">
