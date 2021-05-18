@@ -1,0 +1,107 @@
+.mainValue {
+  width: 60%;
+}
+.mainValue input {
+  padding: 6px 0;
+  background: rgba(255, 255, 255, 0.760435);
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: #162548;
+}
+.mainSelect {
+  width: 20%;
+}
+
+.cardd {
+  background: linear-gradient(136.32deg, rgba(58, 60, 64, 0.4) 1.49%, rgba(255, 255, 255, 0.304174) 97.46%), #f1f3f6;
+  background-blend-mode: soft-light, normal;
+  box-shadow: -10px -10px 15px #ffffff, 10px 10px 15px rgba(202, 206, 220, 0.623771);
+  border-radius: 10px;
+}
+
+select {
+  background: linear-gradient(136.32deg, rgba(58, 60, 64, 0.4) 1.49%, rgba(255, 255, 255, 0.304174) 97.46%), #ffffff;
+  background-blend-mode: soft-light, normal;
+  box-shadow: -7px -7px 10px rgba(255, 255, 255, 0.5), 7px 7px 10px rgba(202, 206, 220, 0.31);
+  border-radius: 10px;
+  border: rgba(255, 255, 255, 0.5);
+}
+
+input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: #162548;
+}
+.seconSelect {
+  padding: 10px 17px;
+}
+
+.toValue {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: #162548;
+}
+
+.covertToPart {
+  position: relative;
+  border-top: 1px solid rgba(202, 206, 220, 0.623771);
+}
+.changeBtn {
+  cursor: pointer;
+  position: absolute;
+  bottom: 90%;
+  left: 50%;
+  background: linear-gradient(136.32deg, rgba(58, 60, 64, 0.4) 1.49%, rgba(255, 255, 255, 0.304174) 97.46%), #ffffff;
+  background-blend-mode: soft-light, normal;
+  box-shadow: -7px -7px 10px rgba(255, 255, 255, 0.5), 7px 7px 10px rgba(202, 206, 220, 0.31);
+  border-radius: 10px;
+  width: 30px;
+  padding: 2px 5px;
+  height: 30px;
+}
+.HH {
+  height: 100vh;
+}
+
+.to,
+.from {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+
+  color: #9da5b7;
+}
+button.btnSubmit {
+  background: linear-gradient(136.32deg, rgba(58, 60, 64, 0.4) 1.49%, rgba(255, 255, 255, 0.304174) 97.46%), #1654f0;
+  background-blend-mode: soft-light, normal;
+  box-shadow: -7px -7px 10px rgba(255, 255, 255, 0.5), 7px 7px 10px rgba(119, 148, 214, 0.538134);
+  border-radius: 10px;
+  font-family: Roboto;
+  border: 5px solid #1654f0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding: 15px 20px;
+  color: #ffffff;
+}
